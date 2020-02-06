@@ -1,1 +1,1 @@
-# programming-tech-learning-group
+# programming-tech-lecture
