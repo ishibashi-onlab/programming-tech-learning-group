@@ -1,9 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="jp">
 
-<head></head>
+<head>
+    <script>
+        function onClick() {
+            document.getElementById('pulldown').selectedIndex = 0;
+        };
+    </script>
+    <link rel="stylesheet" href="pulldown-sample.css">
+    <title>フロントエンドの練習</title> 
+</head>
 
 <body>
-    <select name="example">
+    <select id="pulldown" name="example">
         <option value="1">選択肢1</option>
         <option value="2">選択肢2</option>
         <option value="3">選択肢3</option>
@@ -35,6 +44,7 @@
         <option value="29">選択肢29</option>
         <option value="30">選択肢30</option>
     </select>
+    <input type="button" value="リセット" class="button-test" onclick="onClick()">
 </body>
 
 </html>
